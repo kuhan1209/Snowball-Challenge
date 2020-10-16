@@ -2,7 +2,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">	
-	<meta name="viewport" content="width=1366, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="./style.css">
 	<title>Plant more!</title>
 	
@@ -15,17 +15,24 @@ body {
 	background-image: url(./tree1.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	overflow: hidden;
+	max-width: 100%;
+	height: auto;
 }
 </style>
 </head>
 <body>
 <div class="fixed" id="bar">
-	<a href="./index.html" class="navbtn" id="navbtn3">Home</a>
-	<a href="./pictures.html" class="navbtn" id="navbtn2">Pictures</a>
-	<a href="./utleie.html" class="navbtn" id="navbtn4">Our Goal</a>
-	<a href="./trafikk.html" class="navbtn" id="navbtn5">Donation</a>
-	<a href="./produkt.html" class="navbtn" id="navbtn1">About Us</a>
+	<div id="left">
+		<a href="./produkt.html" class="navbtn" id="navbtn1">About Us</a>
+		<a href="./goal.html" class="navbtn" id="navbtn2">Our Goal</a>
+	</div>
+	<div id="mid">
+		<a href="./index.html" class="navbtn" id="navbtn3">Home</a>
+	</div>
+	<div id="right">
+		<a href="./pictures.html" class="navbtn" id="navbtn4">Pictures</a>
+		<a href="./trafikk.html" class="navbtn" id="navbtn5">Donation</a>
+	</div>
 </div>
 
 <center><h1 id="maintitle">Welcome!</h1></center>
