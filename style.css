@@ -30,7 +30,7 @@ body {
 }
 #info {
 	position: absolute;
-	top: 546px;
+	top: 656px;
 	opacity: 0.1;
 }
 #plan {
@@ -40,8 +40,22 @@ body {
 }
 #bilder {
 	position: absolute;
-	top: 1640px;
+	top: 2640px;
 	opacity: 0.1;
+}
+
+/* ABOUT US */
+#title_info {
+	position: relative;
+	top: 33vw;
+	width: 32vw;
+	padding: 15px 0;
+	color: white;
+	background-color: #009999;
+	border: 2px solid black;
+	border-radius: 30px;
+	font-size: 2vw;
+	
 }
 
 /* OTHER PAGES */
