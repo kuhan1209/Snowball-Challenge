@@ -3,30 +3,47 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="./style.css">
+	<link rel="stylesheet" href="./navbar.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<title>Plant more!</title>
-	
-<!-- 
-This website is being used as a template from one of Danny's previous projects 
-http://www.danny.informatikk4.net/Oppgaver/6%20-%20Elektrisk%20Sparkesykkel/index_ELSS.html
--->
 </head>
+	
+<!----------------------------------------------------------------------------------------------
+This website is a recreated version from one of Danny's previous projects.
+http://www.danny.informatikk4.net/Oppgaver/6%20-%20Elektrisk%20Sparkesykkel/index_ELSS.html
+------------------------------------------------------------------------------------------------
+The navigation bar is recreated from w3school's Responsive Navigation Bar.
+https://www.w3schools.com/howto/howto_js_topnav_responsive.asp
+----------------------------------------------------------------------------------------------->
+
 <body>
 <img src="./tree1.jpg" id="mainbg"></img>
-<div class="fixed" id="bar">
-	<div id="left">
-		<a href="./produkt.html" class="navbtn" id="navbtn1">About Us</a>
-		<a href="./goal.html" class="navbtn" id="navbtn2">Our Goal</a>
+	<div class="topnav">
+		<a href="./index.html" id="home">Home</a>
+		<a href="#info">About Us</a>
+		<a href="#plan">The Plan</a>
+		<a href="#bilder">Pictures</a>
+		<a href="#donation" id="space">Donation</a>
+		<a id="name">Organization Name</a>
+	
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+			<i class="fa fa-bars"></i>
+		</a>
 	</div>
-	<div id="mid">
-		<a href="./index.html" class="navbtn" id="navbtn3">Home</a>
-	</div>
-	<div id="right">
-		<a href="./pictures.html" class="navbtn" id="navbtn4">Pictures</a>
-		<a href="./trafikk.html" class="navbtn" id="navbtn5">Donation</a>
-	</div>
-</div>
+<center>
+	<h1 id="maintitle">Organization Name</h1>
+</center>
 
-<center><h1 id="maintitle">Welcome!</h1></center>
+<div id="info">.</div>
+<div id="plan">.</div>
+<div id="bilder">.</div>
 
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {x.className += " responsive";} 
+  else {x.className = "topnav";}
+}
+</script>
 </body>
 </html>
