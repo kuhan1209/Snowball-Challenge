@@ -43,11 +43,11 @@ em { margin-left: 3px; }
 	letter-spacing: 1.5;
 	z-index: 2;
 }
-#navbtn1:hover {	background-color:#00b300; }
-#navbtn2:hover {	background-color: #00b300; }
-#navbtn3:hover {	background-color: #00b300; }
-#navbtn4:hover {	background-color: #00b300; }
-#navbtn5:hover {	background-color: #00b300; }
+#navbtn1:hover {	background-color:#009900; }
+#navbtn2:hover {	background-color: #009900; }
+#navbtn3:hover {	background-color: #009900; }
+#navbtn4:hover {	background-color: #009900; }
+#navbtn5:hover {	background-color: #009900; }
 
 #navbtn1 {	position: fixed; top: 23px;	right:695px; width:90px;	background-color:#008000; }
 #navbtn2 {	position: fixed; top: 23px;	right:580px; width:100px;	background-color:#008000; }
