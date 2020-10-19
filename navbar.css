@@ -1,5 +1,6 @@
 .topnav {
 	position: fixed;
+	width: 100%;
 	padding-left: 20px;
 	padding-bottom: 23px;
 	background-color: #004d00;
@@ -51,18 +52,18 @@
     float: right;
     display: block;
     top: 17px;
-    right: 15px;
-	height: 19px;
+    right: 35px;
+	height: 20px;
 	width: 14px;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
+  .topnav.responsive {position: fixed;}
   .topnav.responsive .icon {
-    position: absolute;
-    right: 15px;
-	height: 19px;
+	position: absolute;
+    right: 35px;
+	height: 20px;
 	width: 14px;
   }
   .topnav.responsive a {
